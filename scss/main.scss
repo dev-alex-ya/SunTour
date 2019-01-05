@@ -10,6 +10,11 @@
     max-width: 1040px; } }
 
 //my styles
+body{
+  margin: 0;
+  padding: 0;
+}
+
 @import "header/main.scss";
 @import "main/main.scss";
 @import "footer/main.scss";
