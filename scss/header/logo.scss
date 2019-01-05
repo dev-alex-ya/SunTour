@@ -1,0 +1,20 @@
+.logo{
+  align-self: flex-start;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo__icon{
+  margin-right: 22px;
+}
+
+.logo__desc{
+  width: 150px;
+  position: relative;
+
+  .abort{
+    position: absolute;
+    left: -9px;
+  }
+}
