@@ -1,0 +1,15 @@
+//reset styles
+@import "~normalize.css";
+
+//bootstrap styles
+@import "../node_modules/bootstrap/scss/bootstrap-grid.scss";
+
+//customisacion of boostrap
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1040px; } }
+
+//my styles
+@import "header/main.scss";
+@import "main/main.scss";
+@import "footer/main.scss";
