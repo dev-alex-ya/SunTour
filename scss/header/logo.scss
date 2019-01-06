@@ -2,7 +2,7 @@
   align-self: flex-start;
   margin-right: auto;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .logo__icon{
@@ -10,8 +10,13 @@
 }
 
 .logo__desc{
+  margin-top: 8px;
   width: 150px;
   position: relative;
+
+  p{
+    margin: 0;
+  }
 
   .abort{
     position: absolute;
