@@ -1,0 +1,68 @@
+.extrim{
+  margin-bottom: 67px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  img{
+    margin-bottom: 24px;
+  }
+
+  .card{
+    margin-bottom: 40px;
+    width: 500px;
+    border: none;
+
+    .details{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .header-title{
+      //margin-bottom: 20px;
+      font-family: "Trebuchet MS", sans-serif;
+      text-decoration: none;
+      color: #000000;
+      border-bottom: #000000 solid 1px;
+      font-size: 35px;
+    }
+
+    .header-title:hover{
+      color: #CB0000;
+      border-bottom: #CB0000 solid 1px;
+    }
+
+    .header-description{
+      margin-top: 10px;
+      font-family: "Arial", sans-serif;
+      line-height: 19px;
+      font-size: 14px;
+      //border-bottom: 1px solid transparent  ;
+    }
+
+    .cost-real{
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 35px;
+    }
+
+    .cost-old{
+      position: relative;
+      margin-top: 10px;
+      font-family: "Trebuchet MS", sans-serif;
+      font-size: 20px;
+      position: relative;
+      color: #777777;
+    }
+
+    .cost-old::after{
+      position: absolute;
+      content: "";
+      background-color: #CB0000;
+      width: 75%;
+      height: 1px;
+      right: 12.5%;
+      bottom: 50%;
+    }
+  }
+}
+
