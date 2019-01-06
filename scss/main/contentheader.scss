@@ -1,6 +1,7 @@
 .hotel{
+  position: relative;
   display: flex;
-  margin-bottom: 44px;
+  margin-bottom: 30px;
   align-items: center;
 }
 
@@ -8,6 +9,7 @@ a.hotel__title{
   font-family: "Trebuchet MS", sans-serif;
   line-height: normal;
   font-size: 35px;
+  font-weight: bold;
   color: #000000;
   text-decoration: none;
   box-sizing: border-box;
@@ -45,12 +47,36 @@ a.hotel__title:hover{
 }
 
 .cost{
+  margin-left: 20px;
   font-family: "Trebuchet MS", sans-serif;
   line-height: normal;
   font-size: 35px;
+  font-weight: bold;
   text-align: center;
 }
 
-.raiting{
+.factoid{
+  position: absolute;
+  width: 160px;
+  height: 63px;
+  left: 790px;
+  top: -40px;
 
+  .count{
+    font-family: Trebuchet MS;
+    line-height: 88px;
+    font-size: 88px;
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #777777;
+    margin: -5px;
+  }
+  p{
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    line-height: 31px;
+    font-size: 30px;
+    text-align: left;
+  }
 }

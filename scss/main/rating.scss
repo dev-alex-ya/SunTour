@@ -1,0 +1,59 @@
+.rating{
+  margin-bottom: 55px;
+  display: flex;
+  align-items: center;
+
+  .rating__title{
+    width: 91px;
+    p{
+      margin: 0;
+    }
+  }
+  .rating__feedback{
+    color: #000000;
+    font-family: Arial, sans-serif;
+    line-height: normal;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .rating__average{
+    margin-left: 35px;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    font-family: "Trebuchet MS", sans-serif;
+    line-height: normal;
+    font-size: 24px;
+    text-align: center;
+    align-items: center;
+    background: #00BFF3;
+    color: #FFFFFF;
+  }
+
+  .rating__table{
+    margin-left: 24px;
+
+    td{
+      padding: 0 8px;
+    }
+
+    thead{
+      font-family: "Arial", sans-serif;
+      line-height: normal;
+      font-size: 12px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    tbody{
+      font-weight: bold;
+      font-family: "Arial", sans-serif;
+      line-height: normal;
+      font-size: 18px;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+  }
+}
