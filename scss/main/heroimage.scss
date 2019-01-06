@@ -1,0 +1,63 @@
+.heroimage{
+  position: relative;
+  margin-top: 24px;
+
+  img{
+    width: 1040px;
+    height: 553px;
+  }
+
+  .label{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    left: 32px;
+    bottom: 33px;
+    background: rgba(255, 242, 0, 0.7);
+    font-family: "Trebuchet MS", sans-serif;
+    line-height: normal;
+
+    h2{
+      margin: 0;
+
+
+      font-size: 25px;
+      text-align: center;
+      width: 169px;
+    }
+    pre{
+      margin: 0;
+    }
+
+    label{
+      margin-top: 16px;
+      font-size: 14px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    code{
+      margin-top: 7px;
+      padding: 5px;
+      font-size: 24px;
+      text-align: center;
+      text-transform: uppercase;
+      background-color: #000;
+      color: #FFFFFF;
+    }
+  }
+
+
+  &::after{
+    content: url("img/whitetriangle.svg");
+    position: absolute;
+    width: 422px;
+    height: 65px;
+    bottom: 0px;
+    right: 0px;
+  }
+}

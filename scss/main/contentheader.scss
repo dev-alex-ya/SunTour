@@ -1,0 +1,56 @@
+.hotel{
+  display: flex;
+  margin-bottom: 44px;
+  align-items: center;
+}
+
+a.hotel__title{
+  font-family: "Trebuchet MS", sans-serif;
+  line-height: normal;
+  font-size: 35px;
+  color: #000000;
+  text-decoration: none;
+  box-sizing: border-box;
+  border-bottom: 1px solid #cccccc;
+  //margin-bottom: 44px;
+}
+
+a.hotel__title:hover{
+  border-bottom: 1px solid #000000;
+  cursor: pointer;
+}
+
+.stars{
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-end;
+  margin: 0;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.star{
+  //height: 27px;
+  cursor: pointer;
+  margin-left: 3px;
+  content: url("img/star.svg");
+}
+
+.star:hover{
+  content: url("img/star-hover.svg");
+}
+
+.star.active{
+  content: url("img/star-active.svg");
+}
+
+.cost{
+  font-family: "Trebuchet MS", sans-serif;
+  line-height: normal;
+  font-size: 35px;
+  text-align: center;
+}
+
+.raiting{
+
+}
