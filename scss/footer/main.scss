@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #777777;
+  padding-top: 16px;
+  padding-bottom: 16px;
 
   font-family: "Arial", sans-serif;
   line-height: 17px;
@@ -12,6 +14,14 @@
     a{
       font-weight: bold;
       color: rgba(0, 191, 243, 0.8);
+    }
+  }
+
+  .social{
+    .social__item{
+      path{
+        fill: #00BFF3;
+      }
     }
   }
 }
