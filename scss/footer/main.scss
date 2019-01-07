@@ -1,0 +1,17 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #777777;
+
+  font-family: "Arial", sans-serif;
+  line-height: 17px;
+  font-size: 12px;
+
+  .copyright{
+
+    a{
+      font-weight: bold;
+      color: rgba(0, 191, 243, 0.8);
+    }
+  }
+}
