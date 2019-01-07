@@ -3,8 +3,10 @@
   margin-top: 24px;
   margin-bottom: 23px;
 
-  img{
-    width: 1040px;
+  .image{
+    background-image: url("img/heroimage.jpg");
+    background-repeat: no-repeat;
+    width:1040px;
     height: 553px;
   }
 
@@ -63,4 +65,34 @@
     bottom: 0px;
     right: 0px;
   }
+
+  @media (max-width: 1200px){
+    .image{
+      background-image: url("img/heroimage_960.jpg");
+      width: 960px;
+      height: 510px;
+    }
+  }
+
+  @media (max-width: 992px){
+    .image{
+      background-image: url("img/heroimage_720.jpg");
+      width:720px;
+      height: 400px;
+    }
+  }
+
+  @media (max-width: 768px){
+    .image{
+      background-image: url("img/heroimage_540.jpg");
+      width: 540px;
+      height: 320px;
+    }
+
+    &::after{
+      content: none;
+    }
+  }
+
+
 }
