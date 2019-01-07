@@ -23,3 +23,11 @@
     left: -9px;
   }
 }
+
+@media (max-width: 992px){
+  .logo{
+    align-self: center;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
