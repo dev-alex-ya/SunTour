@@ -1,0 +1,78 @@
+.hotel{
+  position: relative;
+  display: flex;
+  margin-bottom: 30px;
+  align-items: center;
+
+  .hotel__title{
+    font-family: "Trebuchet MS", sans-serif;
+    line-height: normal;
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid #cccccc;
+    //margin-bottom: 44px;
+  }
+
+  .hotel__title:hover{
+    border-bottom: 1px solid #000000;
+    cursor: pointer;
+  }
+
+  .stars{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    margin: 0;
+    margin-left: 20px;
+    padding: 0;
+  }
+
+  .star{
+    //height: 27px;
+    cursor: pointer;
+    margin-left: 3px;
+    content: url("img/star.svg");
+  }
+
+  .star.active{
+    content: url("img/star-active.svg");
+  }
+
+  .cost{
+    margin-left: 20px;
+    font-family: "Trebuchet MS", sans-serif;
+    line-height: normal;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .factoid{
+    position: absolute;
+    width: 160px;
+    height: 63px;
+    left: 790px;
+    top: -40px;
+
+    .count{
+      font-family: Trebuchet MS;
+      line-height: 88px;
+      font-size: 88px;
+      font-weight: bold;
+      letter-spacing: -0.05em;
+      text-transform: uppercase;
+      color: #777777;
+      margin: -5px;
+    }
+    p{
+      margin: 0;
+      font-family: "Arial", sans-serif;
+      line-height: 31px;
+      font-size: 30px;
+      text-align: left;
+    }
+  }
+}
