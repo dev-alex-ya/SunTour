@@ -93,7 +93,7 @@
     }
 
     .factoid{
-      position: static;
+      //position: static;
       margin-top: 150px;
       font-family: "Arial", sans-serif;
 
@@ -117,6 +117,43 @@
         font-size: 20px;
         color: #777777;
         width: 225px;
+      }
+    }
+
+
+    @media (max-width: 1200px){
+      .article__body{
+        display: flex;
+        flex-direction: column-reverse;
+
+      }
+
+      .fact-column{
+        width: 70%;
+      }
+
+      .factoid{
+        margin-top: 0;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+
+        .title{
+          margin-left: 20px;
+        }
+
+        .body{
+          display: block;
+          margin-top: 0;
+          //margin-left: 20px;
+          width: 300px;
+        }
+      }
+    }
+
+    @media (max-width: 992px){
+      .fact-column{
+        width: 90%;
       }
     }
   }
