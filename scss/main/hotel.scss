@@ -31,7 +31,6 @@
   }
 
   .star{
-    //height: 27px;
     cursor: pointer;
     margin-left: 3px;
     content: url("img/star.svg");
@@ -75,4 +74,18 @@
       text-align: left;
     }
   }
+
+  @media (max-width: 1200px){
+    .factoid{
+      left: 710px;
+    }
+  }
+  @media (max-width: 992px){
+    flex-direction: column;
+    .factoid{
+      margin-bottom: 100px;
+      position: static;
+    }
+  }
 }
+
