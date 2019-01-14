@@ -1,17 +1,22 @@
 .callback{
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.callback:hover{
+  color: #CB0000;
+  border-bottom: 1px solid #CB0000;
 }
 
 .callback__phone{
-  font-family: "Arial", sans-serif;
   line-height: normal;
   font-size: 30px;
 }
 
 .callback__link{
   margin-left: 26px;
-  font-family: "Arial", sans-serif;
   line-height: normal;
   font-size: 16px;
 }
