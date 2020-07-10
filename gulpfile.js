@@ -1,6 +1,6 @@
 "use strict";
 
-let gulp = require("gulp");
+let gulp = require("gulp-v3");
 let pug = require("gulp-pug");
 let sass = require("gulp-sass");
 let plumber = require("gulp-plumber");

@@ -1,28 +1,36 @@
 {
-  "name": "suntour",
+  "name": "SunTour",
   "version": "1.0.0",
-  "description": "landing page",
+  "description": "",
   "main": "gulpfile.js",
-  "dependencies": {
-    "bootstrap": "^4.2.1",
-    "normalize.css": "^8.0.1"
-  },
-  "devDependencies": {
-    "autoprefixer": "^9.2.0",
-    "browser-sync": "^2.26.3",
-    "gulp": "^3.9.1",
-    "gulp-plumber": "^1.2.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-pug": "^4.0.1",
-    "gulp-sass": "^4.0.1",
-    "gulp-sourcemaps": "^2.6.4"
-  },
   "scripts": {
     "sass": "node node_modules/.bin/gulp sass",
     "pug": "node node_modules/.bin/gulp pug",
     "serve": "node node_modules/.bin/gulp serve"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-alex-ya/SunTour.git"
+  },
+  "keywords": [],
   "author": "",
-  "license": "GPLv2",
-  "homepage": ""
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-alex-ya/SunTour/issues"
+  },
+  "homepage": "https://github.com/dev-alex-ya/SunTour#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.4",
+    "browser-sync": "^2.26.7",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-v3": "^3.12.1"
+  }
 }
