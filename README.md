@@ -1,6 +1,6 @@
 # Landing page - тестовое задание
 
-
+https://dev-alex-ya.github.io/SunTour/
 
 ##Install project
 
